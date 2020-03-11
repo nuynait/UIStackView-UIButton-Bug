@@ -21,14 +21,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q38-jb-Ixf" userLabel="Button 1">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="272.5"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="buttonOneClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ScT-Qs-7ye"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmr-RJ-DwC" userLabel="Button 2">
                                         <rect key="frame" x="0.0" y="272.5" width="414" height="273"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="buttonTwoClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqb-59-ADn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GN2-Ih-oii" userLabel="Button 3">
                                         <rect key="frame" x="0.0" y="545.5" width="414" height="272.5"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="buttonThreeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SiD-MV-TnD"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
