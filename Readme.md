@@ -20,9 +20,13 @@ If you have more than one button in a vertical stackview, click the first button
 3. Run app in the simulator
 4. Click on the first button
 
+*Expected behavior:* Only the first button should be highlighted when pressed down on the first button.
 
-Expected behavior: Only the first button should be highlighted when pressed down on the first button.
-Actual behavior: The first and third button all highlighted when pressed down on the first button only.
+*Actual behavior:* The first and third button all highlighted when pressed down on the first button only.
+
+## Screencast:
+Here is a video screencast to show how to reproduce this issue from scrach
+[Click here](https://s3.ca-central-1.amazonaws.com/share.tshan.me/ios-bug/stackview+bug+screencast.mov)
 
 # Temorary Solution:
 If you put a view underneeth the stack view with at least 1 pt height, it will not have this highlight issue anymore. 
